@@ -28,6 +28,7 @@ function App() {
         </Routes>
       </AnimatePresence>
     </>
+    
   );
 }
 
