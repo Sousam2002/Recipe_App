@@ -1,8 +1,8 @@
 import React from "react";
-import GlutenFree from "../components/GlutenFree";
-import Lowcarb from "../components/Lowcarb";
-import Popular from "../components/Popular";
-import Veggie from "../components/Veggie";
+// import GlutenFree from "../components/GlutenFree";
+// import Lowcarb from "../components/Lowcarb";
+// import Popular from "../components/Popular";
+// import Veggie from "../components/Veggie";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -13,10 +13,10 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Popular />
+      {/* <Popular />
       <Veggie />
       <Lowcarb />
-      <GlutenFree />
+      <GlutenFree /> */}
     </motion.div>
   );
 };
